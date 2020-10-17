@@ -241,7 +241,7 @@
         margin-bottom: 50px;
         padding-top: 40px;
         width: 40%;
-        margin-left: 175px;
+        margin-left: 150px;
         line-height: 0px;
         height: 60px;
     }
@@ -265,4 +265,10 @@
         margin-bottom: 20px;
         
     }
+}
+@media screen and (max-width:375px){
+    .footer-left{
+        margin-left: 130px;
+    }
+
 }
