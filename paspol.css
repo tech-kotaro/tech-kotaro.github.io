@@ -1,0 +1,450 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    
+}
+header{
+    border-bottom-right-radius: 500px 40px;
+    border-bottom-left-radius: 500px 40px;
+}
+.header{
+    overflow: hidden;
+    border-bottom-right-radius: 500px 40px;
+    border-bottom-left-radius: 500px 40px;
+    height:650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: static;
+    border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+    border-bottom-style: solid;
+    border-color: white;
+    width: 100%;
+}
+
+.inner{
+    display: flex;
+    align-items: center;
+    height: 122px;
+    margin: 0 auto;
+    padding-top: 52px;
+}
+.res_inner{
+    display:none;
+    padding-top: 0;
+    height: 45px;
+}
+.menu_wrapper{
+    background-color: rgb(0, 0, 0,0.8);
+    display: none;
+}
+.menu_active li{
+    color: white;
+    border-bottom: 1px solid white;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.menu_active a{
+    display: block;
+    color: white;
+    width: 20%;
+    margin-left: 50px;
+}
+.res_menu{
+    display:flex ;
+    background-color: white;
+    justify-content: space-between;
+    height: 45px;
+    line-height: 45px;
+    align-items: center;
+    cursor: pointer;
+
+} 
+.res_menu li{
+    color:#656c6e;
+    font-family:"Gill Sans Std Book", sans-serif;
+    font-style:normal;
+    font-weight:400;
+    font-size:13px;
+    line-height:45px;
+    list-style: none;
+    margin: 0 50px;
+    cursor: pointer;
+}
+.menu{
+    letter-spacing: 2px;
+}
+.fa-bars{
+    font-size: 18px;
+}
+.brand{
+    height: 590px;
+    line-height: 590px;
+    position: relative;
+    display: none;
+}
+.brand img{
+    width:300px;
+    height: 90px;
+    position: absolute;
+    left:20%;
+    top:30%;
+}
+.header-left{
+    padding-left:50px ;
+}
+.inner img{
+    height: 72px;
+    width: 266px;
+}
+.header-right{
+    display: flex;
+    width:70%;
+    justify-content: flex-end;
+   
+}
+.header-right li{
+    text-align: center;
+    color: white;
+    font-family:"Gill Sans Std Book", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin:0 px ;
+    list-style: none;
+    margin:20px;
+}
+.header-right a{
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.header-right a:hover{
+    opacity: 0.9;
+    border-bottom: 1px solid white;
+}
+.medium-wrapper{
+    background-color: #F6F6F6;
+    text-align: center;
+    padding:90px 0;
+}
+.medium-heading h1{
+    font-family:"Helvetica Neue", Helvetica, Arial, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    color: #13191b;
+    margin-bottom: 40px;
+}
+.medium-sentence{
+    height: 102px;
+    margin-bottom: 20px;
+}
+.medium-sentence p{
+    font-family:"Helvetica Neue", Helvetica, Arial, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif; ;
+    line-height: 34px;
+    font-style: normal;
+    font-weight: 400;
+    color: #13191b;
+    font-size: 20px;
+}
+.sub-heading{
+    height: 40px;
+    margin-top:60px;
+    margin-bottom: 30px;
+}
+.sub-heading h2{
+    font-size: 30px;
+    line-height: 40px;
+    font-style: normal;
+    font-weight: 600;
+    color: #13191b;
+    letter-spacing: 3px;
+   
+}
+.product-wrapper{
+    height: 1000px;
+    padding:30px 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+.product-heading{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0;
+    margin: 60px  0 0 30px;
+}
+.product-heading li{
+    list-style: none;
+}
+.product-right{
+    margin-top:px;
+    margin-right:40px ;
+    position: relative;
+  
+}
+.product-left{
+    margin-left:20px;
+}
+.product-heading h3{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    color: #13191b;
+    line-height: 30px;  
+    font-weight: "Gill Sans Std Book", sans-serif;
+    letter-spacing: 3px;
+}
+
+.more{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #13191b;
+    line-height: 40px;  
+    font-weight: "Gill Sans Std Book", sans-serif;
+    text-decoration: none;
+    letter-spacing: 4px;
+    display: block;
+    border: 1px solid #13191b;
+    text-align: center;
+    width:150px;
+    transition: all 0.2s;
+}
+.more:hover{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.span{
+    position: absolute;
+    right:10px;
+}
+.product-img{
+    display:flex;
+    flex-wrap:wrap ;   
+}
+.product-flex{
+    flex:auto;
+    width:30%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.product-flex:hover{
+    opacity: 0.7;
+}
+.product-flex a{
+    text-decoration: none;
+}
+.product-flex img{
+    width:70%;
+}
+.product-flex p{
+    font-family: "Helvetica Neue", Helvetica, Arial, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #13191b;
+    line-height: 34px;
+    width:80%;
+    margin: 0 auto;
+}
+.res_more{
+    display: none;
+}
+.news-topic{
+    background-color: #F6F6F6;
+    margin-top: 40px;
+    padding-top: 30px;
+}
+.news-wrapper{
+    margin-top:0px;
+    width: 80%;
+    margin: 0 auto;
+}
+.topic-left{
+    margin-left:0 auto;
+    text-align: center;
+}
+.topic-left img{
+    width: 300px;
+}
+.topic-right{
+    width:65%;
+    text-align: center;
+    margin:0 auto 70px;
+    height: 200px;
+}
+.topic-right h4{
+    font-family: "Helvetica Neue", Helvetica, Arial, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 31px;
+    color: #13191b;
+    margin:0 auto;
+}
+.topic-right p{
+    font-family: "Helvetica Neue", Helvetica, Arial, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #656c6e;
+    margin:0 auto;
+}
+.topic{
+    height: 300px;
+    margin-bottom:40px;
+}
+.topic a{
+    text-decoration: none;
+    display:flex;
+}
+.topic a:hover{
+    opacity: 0.7;
+    text-decoration: none;
+}
+.sns-wrapper{
+    height:120px;
+    padding: 20px 0;
+}
+.sns-mark{
+    display: flex;
+    margin:  auto;
+    justify-content: center;
+    line-height: 150px;
+}
+.sns-mark a{
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.sns-mark li{
+    list-style: none;
+    font-family: "Gill Sans Std Book", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    border: 1px solid ;
+    width:180px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    margin: 25px 20px;
+}
+.facebook{
+    color: #4871A9
+}
+.facebook:hover{
+    background-color: #4871A9;
+    color: white;
+}
+.twitter{
+    color:#70BDD3 ;
+}
+.twitter:hover{
+    background-color: #70BDD3;
+    color: white;
+}
+.hatena{
+    color: #2F9BCD;
+}
+.hatena:hover{
+    background-color: #2F9BCD;
+    color: white;
+}
+.line{
+    display: none;
+    color:rgb(160, 235, 160) ;
+}
+.line:hover{
+    background-color:  rgb(160, 235, 160);
+    color: white;
+}
+.nav-bottom-wrapper{
+    height: 80px;
+    background-color: rgb(147,152,153);
+}
+.nav-bottom{
+    display: flex;
+    justify-content: center;
+}
+.nav-bottom a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family:"Gill Sans Std Book", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 80px;
+    transition: all 0.1s;
+}
+.nav-bottom li{
+    text-align: center;
+    width: 10%;
+    margin:0 px ;
+    list-style: none;
+}
+.nav-bottom a:hover{
+    color: rgb(255, 255, 255,0.7);
+    text-decoration: none;
+}
+.menu_active2{
+    display: none;
+}
+.menu_active2 li{
+    color: white;
+    border-bottom: 1px solid white;
+    height: 55px;
+    line-height: 55px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.menu_active2 a{
+    display: block;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+.menu_active2 li:hover{
+    color: rgb(255, 255, 255,0.7);
+}
+.footer{
+    height: 160px;
+    background-color:#656C6E ;
+    display: flex;
+    justify-content: space-between;
+    line-height: 160px;
+}
+.footer-left{
+    line-height: 160px;
+    height: 160px;
+    margin-left:40px ;
+}
+.footer-left img{
+    width: 80px;
+    height: 80px;
+}
+.footer-right{
+    margin-right: 60px;
+}
+.footer-right p{
+    color: white;
+    font-family:"Gill Sans Std Book", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    list-style: none;
+    
+}
