@@ -162,8 +162,11 @@ opacity: 0.8;
 background-size:cover;
 background-repeat: no-repeat;
 background-position: center center;
-height: 600px;
+height: 500px;
+margin-top: 80px;
 margin-bottom: 10px;
+width:100%;
+overflow: hidden;
 }
 .top-wrapper{
     margin-bottom: 20px;
