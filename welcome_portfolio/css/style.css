@@ -219,10 +219,10 @@ li {
   margin-bottom: -40px;
   width: 90%;
   margin: 5px auto;
-  
+  flex-wrap:wrap;
 }
 .work-item2{
-  flex: 0 0 32.31552%;
+  flex: 0 0 30%;
   margin-right: 2%;
   margin-bottom: 40px;
   width: 30%;
