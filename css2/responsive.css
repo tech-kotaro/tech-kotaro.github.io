@@ -1,0 +1,926 @@
+@media screen and (max-width: 900px) {
+  header .header-right {
+    width: 13%;
+  }
+  header .header-right .forpc {
+    display: none;
+  }
+  header .header-right .forsp {
+    display: block;
+  }
+  .information {
+    padding: 10px;
+  }
+  .get-free-heading h2 {
+    width: 100%;
+    font-size: 20px;
+  }
+  .get-free-txt {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .get-free-txt p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+  }
+  .about-txt-heading h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 60px;
+    color: black;
+  }
+  .about-txt-heading h2::after {
+    bottom: -80px;
+  }
+  .about-txt-engineer h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+  }
+  .about-txt-skill {
+    width: 90%;
+  }
+  .about-txt-skill h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: black;
+  }
+  .about-txt-skill ul {
+    width: 100%;
+  }
+  .about-txt-skill ul li {
+    width: 18%;
+  }
+  .about-txt-skill ul li img {
+    width: 45%;
+    height: 40%;
+  }
+  .no-teach-img .heading h1 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 40px;
+    color: white;
+  }
+  .no-teach-img .heading h2 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 48px;
+    color: white;
+  }
+  .no-teach-img .step {
+    flex-wrap: wrap;
+  }
+  .no-teach-img .step .flex {
+    width: 55%;
+    margin-bottom: 50px;
+  }
+  .no-teach-important {
+    height: 200px;
+    padding: 60px 0;
+  }
+  .no-teach-important p {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+    color: white;
+  }
+  .lesson-heading h2 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: black;
+    margin-bottom: 50px;
+  }
+  .lesson-heading p {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    color: black;
+    margin-bottom: 80px;
+  }
+  .lesson ul li img {
+    width: 70%;
+  }
+  .merit-heading h3 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+    color: black;
+    margin-bottom: 30px;
+  }
+  .merit-heading h2 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 40px;
+    color: black;
+  }
+  .merit .step {
+    flex-wrap: wrap;
+  }
+  .merit .step .flex {
+    width: 90%;
+    margin-bottom: 60px;
+  }
+  .merit .step .flex img {
+    width: 40%;
+  }
+  .merit .step .flex h3 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 40px;
+    color: #ebb94d;
+  }
+  .merit .step .flex p {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    color: black;
+  }
+  .merit .support {
+    padding: 60px 20px;
+  }
+  .merit .support h2 {
+    margin-bottom: 20px;
+  }
+  .merit .support h3 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 40px;
+    color: black;
+    margin-bottom: 20px;
+  }
+  .merit .support h4 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 18px;
+    line-height: 40px;
+    color: black;
+  }
+  .merit .attention p {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: black;
+    margin: 0px;
+  }
+  .member-heading h2 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 40px;
+    color: white;
+    margin-bottom: 50px;
+  }
+  .member-heading p {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    color: white;
+  }
+  .member ul {
+    width: 100%;
+  }
+  .member ul li {
+    width: 90%;
+    margin: 20px auto 180px;
+  }
+  .member ul li img {
+    left: 38%;
+  }
+  .member ul li .border {
+    margin: 0 auto;
+  }
+  .member ul li .border .introduction p {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    color: white;
+  }
+  .QA-txt h2 {
+    width: 95%;
+    margin: 0 auto;
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color: white;
+  }
+  .QA-txt h2::before {
+    border-left: 3px solid white;
+    border-top: 3px solid white;
+  }
+  .QA-txt h2::after {
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+  }
+  .voice {
+    padding: 60px 0;
+  }
+  .voice-heading {
+    padding: 0;
+  }
+  .voice-heading h2 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 60px;
+    color: black;
+  }
+  .voice-heading h3 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 40px;
+    color: #5f5f5f;
+  }
+  .voice-heading p {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 40px;
+    color: black;
+  }
+  .voice-person {
+    width: 95%;
+    margin: 60px auto 40px;
+  }
+  .voice-person .left {
+    width: 30%;
+  }
+  .voice-person .left img {
+    width: 100%;
+  }
+  .voice-person .right {
+    width: 60%;
+    padding-left: 30px;
+    padding-top: 40px;
+  }
+  .voice-person .right h3 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 45px;
+    color: #969696;
+  }
+  .voice-person .right p {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 40px;
+    color: #969696;
+  }
+  .contents-heading {
+    margin-bottom: 100px;
+  }
+  .contents-heading h2 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: white;
+    margin-bottom: 30px;
+  }
+  .contents-heading p {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color: white;
+  }
+  .contents .flex {
+    flex-wrap: wrap;
+  }
+  .contents .flex .grid {
+    width: 80%;
+    margin-bottom: 50px;
+  }
+  .risk h2 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: white;
+  }
+  .flow-heading h2 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: black;
+  }
+  .flow-chart {
+    text-align: center;
+  }
+  .flow-chart img {
+    width: 90%;
+  }
+  .present-heading h2 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    color: black;
+    margin-bottom: 60px;
+  }
+  .present-heading p {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+  }
+  .present-heading p span {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: black;
+  }
+  .present-addition .heading h2 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    color: black;
+  }
+  .present-addition ul {
+    flex-wrap: wrap;
+  }
+  .present-addition ul .three {
+    width: 60%;
+    margin: 0 auto 40px;
+  }
+  .volunteer .top p {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    color: white;
+  }
+  .volunteer .medium h2 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 33px;
+    color: white;
+    width: 90%;
+  }
+  .message-heading {
+    margin-bottom: 90px;
+  }
+  .message-heading h2 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 33px;
+    color: black;
+    margin-bottom: 50px;
+  }
+  .message-heading p {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    color: black;
+  }
+  .message-txt {
+    flex-wrap: wrap;
+  }
+  .message-txt .left {
+    width: 90%;
+  }
+  .message-txt .left img {
+    width: 100%;
+  }
+  .message-txt .right {
+    margin-top: 40px;
+    text-align: left;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .about-txt-skill {
+    padding: 40px 0 0;
+  }
+  .about-txt-skill ul {
+    flex-wrap: wrap;
+  }
+  .about-txt-skill ul li {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  .about-txt-skill ul li img {
+    width: 25%;
+    height: 25%;
+  }
+  .about-txt-skill ul .four {
+    margin-left: 100px;
+  }
+  .about-txt-skill ul .five {
+    margin-right: 100px;
+  }
+  .no-teach-important {
+    padding: 40px 0;
+  }
+  .no-teach-important p {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 40px;
+    color: white;
+  }
+  .lesson {
+    text-align: center;
+    padding: 60px 0;
+  }
+  .lesson-heading h2 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 40px;
+    color: black;
+    margin-bottom: 30px;
+  }
+  .lesson-heading p {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    color: black;
+    margin-bottom: 40px;
+  }
+  .merit {
+    background-color: #FEF5E0;
+    text-align: center;
+    width: 100%;
+    padding: 100px 0;
+  }
+  .merit-heading {
+    margin: 0 auto;
+    margin-bottom: 150px;
+  }
+  .merit-heading h3 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+    color: #3d3c3c;
+    margin-bottom: 30px;
+  }
+  .merit-heading h2 {
+    width: 100%;
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 40px;
+    color: black;
+    position: relative;
+  }
+  .merit-heading h2::before {
+    border-left: 3px solid #ebb94d;
+    border-top: 3px solid #ebb94d;
+  }
+  .merit-heading h2::after {
+    border-right: 3px solid #ebb94d;
+    border-bottom: 3px solid #ebb94d;
+  }
+  .merit .step {
+    margin-bottom: 80px;
+    display: flex;
+  }
+  .merit .step .flex {
+    width: 80%;
+    margin: 0 auto 40px;
+  }
+  .merit .step .flex img {
+    width: 100%;
+    height: 200px;
+  }
+  .merit .step .flex h3 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 40px;
+    color: #ebb94d;
+  }
+  .merit .step .flex p {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    color: black;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .merit .support {
+    padding: 20px 20px;
+  }
+  .merit .support h2 {
+    margin-bottom: 0px;
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    color: #ebb94d;
+  }
+  .merit .support h3 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+    margin-bottom: 20px;
+  }
+  .merit .support h4 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 40px;
+    color: black;
+  }
+  .merit .attention p {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: black;
+    margin: 0px;
+  }
+  .member ul li img {
+    left: 35%;
+  }
+  .QA-txt {
+    width: 100%;
+  }
+  .QA-txt h2 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    color: white;
+  }
+  .voice {
+    padding: 60px 0;
+  }
+  .voice-person {
+    width: 95%;
+    margin: 60px auto 40px;
+  }
+  .voice-person .left {
+    width: 25%;
+  }
+  .voice-person .left img {
+    width: 100%;
+  }
+  .voice-person .right {
+    width: 70%;
+    padding-left: 20px;
+    padding-top: 0px;
+  }
+  .voice-person .right h3 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 35px;
+    color: #969696;
+  }
+  .voice-person .right p {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 35px;
+    color: #969696;
+  }
+  .contents {
+    padding: 80px 0;
+  }
+  .contents-heading {
+    margin-bottom: 30px;
+  }
+  .contents-heading h2 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 40px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  .contents-heading p {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+    color: white;
+  }
+  .contents .flex {
+    flex-wrap: wrap;
+    width: 90%;
+  }
+  .contents .flex .grid {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .contents .flex .grid h2 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 60px;
+    color: white;
+  }
+  .contents .flex .grid li {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: black;
+    border-bottom: 1px solid #f8f8f8;
+  }
+  .risk {
+    padding: 30px;
+  }
+  .risk h2 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+  }
+  .detail {
+    margin-bottom: 40px;
+    padding: 10px 0;
+  }
+  .detail .line img {
+    width: 90%;
+  }
+  .detail-block {
+    padding: 20px 20px;
+  }
+  .bangkok-txt {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .bangkok-txt h2 {
+    text-align: center;
+  }
+  .bangkok-txt p {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+    margin-bottom: 40px;
+  }
+  .bangkok-txt ul {
+    margin-bottom: 30px;
+  }
+  .bangkok-txt ul li {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  .bangkok-txt h3 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+  }
+  .present-heading h2 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: black;
+    margin-bottom: 40px;
+  }
+  .present-heading p {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+  }
+  .present-heading p span {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: black;
+  }
+  .present-addition .heading {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .present-addition .heading h2 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: black;
+  }
+  .present-addition ul::before {
+    content: "";
+    width: 300px;
+    height: 2px;
+    background: #F7C23C;
+    display: inline-block;
+    position: absolute;
+    top: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .present-addition ul {
+    flex-wrap: wrap;
+  }
+  .present-addition ul .three {
+    width: 60%;
+    margin: 0 auto 40px;
+  }
+  .volunteer .top h2 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: white;
+    margin-bottom: 40px;
+  }
+  .volunteer .top p {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 33px;
+    color: white;
+  }
+  .volunteer .medium h2 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: white;
+    width: 95%;
+  }
+  .volunteer .medium h2::before {
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+  }
+  .volunteer .medium h2::after {
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+  }
+  .volunteer .bottom p {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 33px;
+    color: white;
+  }
+  .message-heading {
+    margin-bottom: 30px;
+  }
+  .message-heading h2 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: black;
+  }
+  .message-heading p {
+    width: 50%;
+    margin: 0 auto;
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+  }
+  .message-txt {
+    flex-wrap: wrap;
+  }
+  .message-txt .left {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .message-txt .left img {
+    width: 100%;
+  }
+  .message-txt .right {
+    margin-top: 40px;
+    text-align: left;
+    width: 90%;
+  }
+  .form {
+    padding: 70px 0;
+  }
+  .form-heading h2 {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    color: black;
+    margin-bottom: 40px;
+  }
+  .form-heading p {
+    font-family: Meiryo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+    color: black;
+  }
+  .form form input, .form form textarea {
+    width: 90%;
+  }
+}
