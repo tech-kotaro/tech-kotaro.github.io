@@ -612,6 +612,9 @@
     color: black;
     margin: 0px;
   }
+  .member ul li {
+     margin-left: 0 ; 
+  }
   .member ul li img {
     left: 35%;
   }
