@@ -1,0 +1,1606 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+header .header {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  justify-content: space-between;
+}
+
+header .header-left {
+  display: flex;
+}
+
+header .header-left-img {
+  text-align: center;
+  line-height: 75px;
+  height: 75px;
+}
+
+header .header-left-img img {
+  width: 180px;
+  margin: 0 auto;
+}
+
+header .header-left p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+  padding-top: 30px;
+  width: 20em;
+}
+
+header .header-right {
+  width: 30%;
+  float: right;
+}
+
+header .header-right .forpc {
+  text-align: center;
+  display: block;
+  width: 90%;
+  background-color: #da6b64;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: white;
+  border-radius: 20px;
+  height: 50px;
+  line-height: 50px;
+  padding-right: 0;
+  transition: all 0.5s;
+}
+
+header .header-right .forpc:hover {
+  background-color: #dd564c;
+}
+
+header .header-right .forsp {
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  vertical-align: middle;
+  display: none;
+  background-color: rgba(221, 86, 76, 0.8);
+  padding-top: 10px;
+}
+
+header .header-right .forsp a {
+  display: block;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: white;
+}
+
+header .header-right .forsp a:hover {
+  text-decoration-line: underline;
+}
+
+.top-image {
+  background-image: url("https://isara.life/wp-content/themes/isara_v2/img/main.jpg");
+  height: 700px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 170px;
+  padding-bottom: 100px;
+}
+
+.top-image .top-txt {
+  text-align: center;
+}
+
+.top-image .top-txt h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 60px;
+  color: #333333;
+}
+
+.top-image .top-txt img {
+  width: 350px;
+}
+
+.top-image .top-txt h2 {
+  margin-top: 50px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  color: #333333;
+}
+
+.information {
+  background-color: #EBB94D;
+  padding: 70px 0;
+}
+
+.information-heading {
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+
+.information-heading h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 40px;
+  color: #ffffff;
+  font-family: Helvetica, 游ゴシック, "Yu Gothic", YuGothic, HiraKakuProN-W3, メイリオ, Meiryo, sans-serif;
+}
+
+.information-heading p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #c7254e;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-family: Helvetica, 游ゴシック, "Yu Gothic", YuGothic, HiraKakuProN-W3, メイリオ, Meiryo, sans-serif;
+  width: 500px;
+  margin: 15px auto;
+}
+
+.information-heading a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 100px;
+  color: #ffffff;
+  font-family: Helvetica, 游ゴシック, "Yu Gothic", YuGothic, HiraKakuProN-W3, メイリオ, Meiryo, sans-serif;
+  background-color: #DA6B64;
+  width: 100%;
+  display: block;
+  border-radius: 40px;
+  margin: 20px auto;
+}
+
+.information ul {
+  margin: 30px auto;
+  width: 70%;
+  text-align: center;
+}
+
+.information ul li {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+  font-family: Helvetica, 游ゴシック, "Yu Gothic", YuGothic, HiraKakuProN-W3, メイリオ, Meiryo, sans-serif;
+  margin-bottom: 30px;
+}
+
+.information ul .seven {
+  padding-left: 10px;
+}
+
+.information ul .eight {
+  padding-left: 20px;
+}
+
+.get-free {
+  position: relative;
+  background-image: url("https://isara.life/wp-content/themes/isara_v2/img/introbottom.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 80px 0 0px;
+  padding-bottom: 100px;
+}
+
+.get-free-heading {
+  margin-bottom: 80px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.get-free-heading h2 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 80px;
+  color: black;
+  font-family: Meiryo;
+  height: 80px;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.get-free-heading h2::before {
+  position: absolute;
+  /*before(after)を可視化するためのおまじない*/
+  content: "";
+  box-sizing: border-box;
+  /*位置は左上を指定*/
+  top: 0;
+  left: 0;
+  /*50px × 50px の四角形を作成 */
+  width: 60px;
+  height: 60px;
+  /*topとleftの辺だけを可視化する*/
+  border-top: 6px solid #ebb94d;
+  border-left: 6px solid #ebb94d;
+}
+
+.get-free-heading h2::after {
+  position: absolute;
+  /*before(after)を可視化するためのおまじない*/
+  content: "";
+  box-sizing: border-box;
+  /*位置は左上を指定*/
+  right: 0;
+  bottom: 0;
+  /*50px × 50px の四角形を作成 */
+  width: 60px;
+  height: 60px;
+  /*topとleftの辺だけを可視化する*/
+  border-bottom: 6px solid #ebb94d;
+  border-right: 6px solid #ebb94d;
+}
+
+.get-free-txt {
+  text-align: center;
+}
+
+.get-free-txt p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 40px;
+  color: #272727;
+  font-family: Meiryo;
+  margin-bottom: 40px;
+}
+
+.get-free-txt p span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 20px;
+  color: black;
+  font-family: Meiryo;
+  height: 20px;
+  background: linear-gradient(transparent 60%, #f1c972 0%);
+}
+
+.get-free-logo {
+  position: absolute;
+  bottom: -50px;
+  left: 45%;
+}
+
+.get-free-logo p {
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 120px;
+  width: 120px;
+  height: 120px;
+  color: white;
+  background-color: #e9bb58;
+}
+
+.about {
+  padding: 30px;
+  padding: 120px 0px 100px;
+  background-color: #FEF5E0;
+}
+
+.about-txt-heading {
+  height: 100px;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 100px;
+  margin-bottom: 80px;
+}
+
+.about-txt-heading h2 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  color: black;
+  font-family: Meiryo;
+  height: 50px;
+  position: relative;
+  margin-bottom: 80px;
+  line-height: 50px;
+}
+
+.about-txt-heading h2::before {
+  position: absolute;
+  /*before(after)を可視化するためのおまじない*/
+  content: "";
+  box-sizing: border-box;
+  /*位置は左上を指定*/
+  top: -20px;
+  left: 0;
+  /*50px × 50px の四角形を作成 */
+  width: 60px;
+  height: 60px;
+  /*topとleftの辺だけを可視化する*/
+  border-top: 6px solid #ebb94d;
+  border-left: 6px solid #ebb94d;
+}
+
+.about-txt-heading h2::after {
+  position: absolute;
+  /*before(after)を可視化するためのおまじない*/
+  content: "";
+  box-sizing: border-box;
+  /*位置は左上を指定*/
+  right: 0;
+  bottom: -40px;
+  /*50px × 50px の四角形を作成 */
+  width: 60px;
+  height: 60px;
+  /*topとleftの辺だけを可視化する*/
+  border-bottom: 6px solid #ebb94d;
+  border-right: 6px solid #ebb94d;
+}
+
+.about-txt-engineer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.about-txt-engineer h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 45px;
+  color: black;
+  font-family: Meiryo;
+}
+
+.about-txt-skill {
+  width: 90%;
+  margin: 40px auto;
+  border: 5px solid #ebae53;
+  background-color: white;
+  padding: 60px 0;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.about-txt-skill h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  color: black;
+  font-family: Meiryo;
+}
+
+.about-txt-skill ul {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 40px auto 0;
+}
+
+.about-txt-skill ul li {
+  width: 18%;
+}
+
+.about-txt-skill ul li img {
+  width: 50%;
+  height: 48%;
+}
+
+.about-txt-skill ul li P {
+  margin-top: 20px;
+}
+
+.no-teach-img {
+  padding: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://inotaka.github.io/isara.copy/img/aboutsecondbgsp.jpg");
+}
+
+.no-teach-img .heading {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.no-teach-img .heading h1 {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 48px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.no-teach-img .heading h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 40px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.no-teach-img .heading h2 span {
+  color: #e9bb58;
+}
+
+.no-teach-img .step {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.no-teach-img .step .flex {
+  background-color: white;
+  width: 30%;
+  margin: 0 auto;
+  height: 280px;
+  padding: 50px 20px;
+  border-radius: 5px;
+}
+
+.no-teach-img .step .flex h3 {
+  background-color: #e9bb58;
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 50px;
+  color: white;
+  border-radius: 5px;
+}
+
+.no-teach-img .step .flex p {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: black;
+}
+
+.no-teach-img .step .flex h4 {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 40px;
+  color: black;
+}
+
+.no-teach-important {
+  background-color: #016EA9;
+  height: 250px;
+  padding: 80px 0;
+}
+
+.no-teach-important p {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 40px;
+  color: white;
+}
+
+.no-teach-important p span {
+  color: #e9ad7d;
+}
+
+.lesson {
+  text-align: center;
+  padding: 120px 0;
+}
+
+.lesson-heading h2 {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 40px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.lesson-heading p {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  color: black;
+  margin-bottom: 40px;
+}
+
+.lesson ul {
+  display: flex;
+}
+
+.lesson ul li {
+  flex: auto;
+}
+
+.lesson-bottom {
+  margin-top: 30px;
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 40px;
+  color: black;
+}
+
+.merit {
+  background-color: #FEF5E0;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.merit-heading {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+
+.merit-heading h3 {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 40px;
+  color: #3d3c3c;
+  margin-bottom: 30px;
+}
+
+.merit-heading h2 {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 40px;
+  color: black;
+  position: relative;
+}
+
+.merit-heading h2::before {
+  position: absolute;
+  /*before(after)を可視化するためのおまじない*/
+  content: "";
+  box-sizing: border-box;
+  /*位置は左上を指定*/
+  top: -80px;
+  left: 0;
+  /*50px × 50px の四角形を作成 */
+  width: 60px;
+  height: 60px;
+  /*topとleftの辺だけを可視化する*/
+  border-top: 6px solid #ebb94d;
+  border-left: 6px solid #ebb94d;
+}
+
+.merit-heading h2::after {
+  position: absolute;
+  /*before(after)を可視化するためのおまじない*/
+  content: "";
+  box-sizing: border-box;
+  /*位置は左上を指定*/
+  right: 0;
+  bottom: -20px;
+  /*50px × 50px の四角形を作成 */
+  width: 60px;
+  height: 60px;
+  /*topとleftの辺だけを可視化する*/
+  border-bottom: 6px solid #ebb94d;
+  border-right: 6px solid #ebb94d;
+}
+
+.merit .step {
+  margin-bottom: 80px;
+  display: flex;
+}
+
+.merit .step .flex {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.merit .step .flex img {
+  width: 100%;
+}
+
+.merit .step .flex h3 {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 40px;
+  color: #ebb94d;
+}
+
+.merit .step .flex p {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 40px;
+  color: black;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.merit .support {
+  border-radius: 10px;
+  background-color: white;
+  width: 90%;
+  border: 3px solid #e9bb58;
+  padding: 80px 30px;
+  margin: 0 auto;
+}
+
+.merit .support h2 {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  color: #ebb94d;
+}
+
+.merit .support h3 {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 40px;
+  color: black;
+  margin: 30px;
+}
+
+.merit .support h4 {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 40px;
+  color: black;
+}
+
+.merit .attention {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 40px;
+  color: black;
+  margin: 40px;
+}
+
+.member {
+  padding: 100px 0 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("https://inotaka.github.io/isara.copy/img/teacherbgsp.jpg");
+}
+
+.member-heading {
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.member-heading h2 {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 40px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.member-heading p {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 40px;
+  color: white;
+}
+
+.member ul {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+}
+
+.member ul li {
+  position: relative;
+  width: 45%;
+  margin: 120px 20px;
+}
+
+.member ul li img {
+  position: absolute;
+  top: -160px;
+  left: 30%;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.member ul li .border {
+  border: 5px solid white;
+  padding: 60px 40px;
+}
+
+.member ul li .border .name p {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.member ul li .border .introduction p {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 40px;
+  color: white;
+}
+
+.QA {
+  height: 400px;
+  background-color: #EBB94D;
+  padding: 50px 0;
+  position: relative;
+}
+
+.QA-icon {
+  text-align: center;
+}
+
+.QA-icon p {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border-radius: 50%;
+  padding-top: 30px;
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 40px;
+  color: #EBB94D;
+  background-color: white;
+}
+
+.QA-txt {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 70px;
+  text-align: center;
+}
+
+.QA-txt h2 {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  color: white;
+  position: relative;
+}
+
+.QA-txt h2::before {
+  position: absolute;
+  /*before(after)を可視化するためのおまじない*/
+  content: "";
+  box-sizing: border-box;
+  /*位置は左上を指定*/
+  top: -20px;
+  left: 0;
+  /*50px × 50px の四角形を作成 */
+  width: 60px;
+  height: 60px;
+  /*topとleftの辺だけを可視化する*/
+  border-top: 6px solid white;
+  border-left: 6px solid white;
+}
+
+.QA-txt h2::after {
+  position: absolute;
+  /*before(after)を可視化するためのおまじない*/
+  content: "";
+  box-sizing: border-box;
+  /*位置は左上を指定*/
+  right: 0;
+  bottom: -20px;
+  /*50px × 50px の四角形を作成 */
+  width: 60px;
+  height: 60px;
+  /*topとleftの辺だけを可視化する*/
+  border-bottom: 6px solid white;
+  border-right: 6px solid white;
+}
+
+.QA::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -20px;
+  left: 0;
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  border-style: solid;
+  border-color: #EBB94D transparent transparent transparent;
+  border-width: 20px 20px 0 20px;
+}
+
+.voice {
+  padding: 60px 0;
+}
+
+.voice-heading {
+  width: 80%;
+  margin: 0 auto;
+  padding: 60px;
+  text-align: center;
+}
+
+.voice-heading h2 {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: black;
+}
+
+.voice-heading h3 {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 40px;
+  color: #5f5f5f;
+}
+
+.voice-heading p {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;
+  color: black;
+}
+
+.voice-person {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.voice-person .left {
+  width: 30%;
+  text-align: right;
+}
+
+.voice-person .left img {
+  width: 70%;
+  border: 3px solid #ecc75f;
+}
+
+.voice-person .right {
+  width: 50%;
+  padding-left: 30px;
+  padding-top: 40px;
+}
+
+.voice-person .right h3 {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 45px;
+  color: #969696;
+}
+
+.voice-person .right p {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 40px;
+  color: #969696;
+  text-decoration: underline;
+}
+
+.contents {
+  background-image: url("https://inotaka.github.io/isara.copy/img/classbgsp.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px;
+  text-align: center;
+}
+
+.contents-heading {
+  margin-bottom: 100px;
+}
+
+.contents-heading h2 {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.contents-heading p {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 40px;
+  color: white;
+}
+
+.contents .flex {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contents .flex .grid {
+  background-color: white;
+  border: 1px solid #016EA9;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.contents .flex .grid h2 {
+  background-color: #016EA9;
+  padding: 15px 0;
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 60px;
+  color: white;
+}
+
+.contents .flex .grid li {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 40px;
+  color: black;
+  margin: 15px;
+}
+
+.risk {
+  background-color: #016EA9;
+  padding: 60px;
+  text-align: center;
+}
+
+.risk h2 {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  color: white;
+}
+
+.flow {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.flow-heading {
+  margin-bottom: 50px;
+}
+
+.flow-heading h2 {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  color: black;
+}
+
+.flow-chart {
+  text-align: center;
+}
+
+.flow-chart img {
+  width: 90%;
+}
+
+.detail {
+  padding: 30px 0;
+}
+
+.detail .line {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.detail-block {
+  display: flex;
+  background-color: #FEF5E0;
+  width: 90%;
+  margin: 0 auto;
+  padding: 60px 40px;
+}
+
+.detail-block .left {
+  width: 25%;
+  text-align: center;
+}
+
+.detail-block .left img {
+  width: 50%;
+}
+
+.detail-block .left h3 {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #383737;
+}
+
+.detail-block .right {
+  width: 70%;
+  text-align: center;
+}
+
+.detail-block .right h3 {
+  margin-bottom: 20px;
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #383737;
+}
+
+.detail-block .right p {
+  margin-bottom: 20px;
+}
+
+.bangkok {
+  padding: 80px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://isara.life/wp-content/themes/isara_v2/img/bangkokbg.jpg");
+}
+
+.bangkok-txt {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.bangkok-txt h2 {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.bangkok-txt p {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.bangkok-txt ul {
+  margin-bottom: 40px;
+}
+
+.bangkok-txt ul li {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.bangkok-txt h3 {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: white;
+}
+
+.present {
+  background-color: #F7C23C;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.present-heading {
+  margin-bottom: 100px;
+}
+
+.present-heading h2 {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 30px;
+  color: black;
+  margin-bottom: 60px;
+}
+
+.present-heading p {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  color: white;
+}
+
+.present-heading p span {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  color: black;
+}
+
+.present-addition .heading h2 {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 30px;
+  color: black;
+  position: relative;
+  top: 10px;
+  z-index: 2;
+}
+
+.present-addition ul::before {
+  content: "";
+  width: 800px;
+  height: 2px;
+  background: #F7C23C;
+  display: inline-block;
+  position: absolute;
+  top: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.present-addition ul {
+  position: relative;
+  display: flex;
+  width: 90%;
+  border: 2px solid white;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.present-addition ul .three {
+  margin: 0 auto;
+}
+
+.present-addition ul .three li {
+  background-color: white;
+  border-radius: 50%;
+  line-height: 300px;
+  padding: 70px 20px;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.present-addition ul .three li h3 {
+  margin-bottom: 20px;
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  color: #ebcc65;
+}
+
+.present-addition ul .three li p {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 33px;
+  color: black;
+}
+
+.volunteer {
+  background-image: url("https://isara.life/wp-content/themes/isara_v2/img/specialdetail.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.volunteer .top {
+  margin-bottom: 60px;
+}
+
+.volunteer .top h2 {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 33px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.volunteer .top p {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  color: white;
+}
+
+.volunteer .medium {
+  margin-bottom: 60px;
+}
+
+.volunteer .medium h2 {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 33px;
+  color: white;
+  position: relative;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.volunteer .medium h2::before {
+  position: absolute;
+  /*before(after)を可視化するためのおまじない*/
+  content: "";
+  box-sizing: border-box;
+  /*位置は左上を指定*/
+  top: -20px;
+  left: 0;
+  /*50px × 50px の四角形を作成 */
+  width: 60px;
+  height: 60px;
+  /*topとleftの辺だけを可視化する*/
+  border-top: 6px solid white;
+  border-left: 6px solid white;
+}
+
+.volunteer .medium h2::after {
+  position: absolute;
+  /*before(after)を可視化するためのおまじない*/
+  content: "";
+  box-sizing: border-box;
+  /*位置は左上を指定*/
+  right: 0;
+  bottom: -20px;
+  /*50px × 50px の四角形を作成 */
+  width: 60px;
+  height: 60px;
+  /*topとleftの辺だけを可視化する*/
+  border-bottom: 6px solid white;
+  border-right: 6px solid white;
+}
+
+.volunteer .bottom p {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  color: white;
+}
+
+.message {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.message-heading {
+  margin-bottom: 90px;
+}
+
+.message-heading h2 {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 33px;
+  color: black;
+  margin-bottom: 50px;
+}
+
+.message-heading p {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 30px;
+  color: black;
+}
+
+.message-txt {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.message-txt .left {
+  width: 30%;
+}
+
+.message-txt .left img {
+  width: 300px;
+}
+
+.message-txt .right {
+  text-align: left;
+  width: 60%;
+}
+
+.message-txt .right p {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.message-txt .right ul {
+  margin-bottom: 30px;
+}
+
+.message-txt .right ul li {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 35px;
+  color: black;
+}
+
+.form {
+  background-color: #ebb94d;
+  padding: 70px;
+  text-align: center;
+}
+
+.form-heading {
+  margin-bottom: 60px;
+}
+
+.form-heading h2 {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 35px;
+  color: black;
+  margin-bottom: 40px;
+}
+
+.form-heading p {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 35px;
+  color: black;
+}
+
+.form form input, .form form textarea {
+  width: 75%;
+  margin: 0 auto;
+  display: block;
+  border: none;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.form form input {
+  height: 70px;
+}
+
+.form form textarea {
+  height: 120px;
+}
+
+.form form .btn {
+  cursor: pointer;
+  background-color: #da6b64;
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 70px;
+  color: white;
+  border-radius: 50px;
+}
+
+.query {
+  padding: 60px 0;
+}
+
+.query-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.query-heading h2 {
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 70px;
+  color: black;
+}
+
+.query-row {
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.query-row .question {
+  height: 100px;
+  /*
+            .rotate::after{
+                content: "";
+                position: absolute;
+                right: 24px;
+                top: 37%;
+                transition: all 0.2s ease-in-out;
+                display: block;
+                width: 8px;
+                height: 8px;
+                border-top: solid 2px gray;
+                border-right: solid 2px gray;
+                transform: rotate(135deg);
+            }
+            */
+}
+
+.query-row .question a {
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid #dfdbdb;
+  padding: 25px 0;
+  font-family: Meiryo;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: black;
+  transition: all 1s;
+  position: relative;
+  display: block;
+}
+
+.query-row .question a:hover {
+  text-decoration: underline;
+}
+
+.query-row .answer p {
+  display: none;
+}
+
+/*
+@media screen and (max-width:768px){
+    .information{
+        padding: 0px;
+    }
+    .get-free{
+        &-heading{
+            h2{
+                width: 70%;
+                font-size: 90px;
+                @include font(null,normal,700,10px,80px,black);
+            }
+        }
+        &-txt{
+            p{
+                @include font(null,normal,700,22px,80px,black);
+            }
+        }
+    }
+    
+    }
+    @media screen and (max-width:559px){
+    
+    
+    }
+    */
