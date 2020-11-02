@@ -29,12 +29,18 @@
                 <span class="fab fa-facebook-f"></span>
                 <span class="fab fa-twitter"></span>
                 <span class="fab fa-instagram"></span>
-                <span class="fas fa-bars"></span>
+                <span id="menu-btn"class="fas fa-bars"></span>
+                <i id="menu-btn2" class="fas fa-times"></i>
             </div>
+              <!-- 僕はスマホ用しか表示させないブロックに forsp というクラスを付けると決めています -->
+              <!-- いつもはここにスマホ用のロゴを表示させますが今日はh1タグのテキストとしました -->
+              <!-- splogoというidが紛らわしいかもしれませんが本来は画像が入ると思って使ってください -->
         </div>
+   
+   
 
         
-
+<!--ナビの詳細-->
 
         <div class="big-nav">
             <div class="first about2">
@@ -173,13 +179,64 @@
                 </div>
             </div>
         </div>
+<!--ナビの詳細ここまで-->
 
+<!--背景画像アニメーション-->
+        <div class="slide-nav">
+            <nav id="global-nav">
+                <ul id="header-nav">
+                  <li class="menu-item">
+                    <a href="#slider">Home</a>
+                  </li>
+                  <li class="menu-item">
+                      <a href="">About:クナイプを知る</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="">バスソルト</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#faq">バスミルク</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#faq">美容オイル</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#faq">美容バーム</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#faq">ハンドクリーム</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#faq">ボディクリーム</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#faq">シュガースクラブ</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#faq">オーガニックリップバーム</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#faq">よくあるご質問</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#faq">ニュース</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#faq">企業情報</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#faq">お問い合わせ</a>
+                  </li>
+                </ul>
+              </nav>
+        </div>
         <div class="top-image">
+
         </div>
 
     <!-- bgswitcher-script -->
- 
-<script>
+
+    <script>
         jQuery(function($) {
             $('.top-image').bgSwitcher({
             images: ['https://www.kneipp.jp/img/pc/top-impression-photo-66.jpg',
@@ -192,6 +249,7 @@
             });
         });
     </script>
+
         <div class="top-wrapper">
            <ul class="slide-wrapper">
                <li class="slide2 push prev">
