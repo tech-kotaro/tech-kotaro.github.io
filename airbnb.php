@@ -45,7 +45,7 @@
                             <input type="text" placeholder="所在地">
                             <select class="first" name="rental" id="" aria-placeholder="まるまる貸し切り">
                                 <option value="">まるまる貸し切り</option>
-                                <option value=""> 
+                                <option class="option" value=""> 
                                     <h3>まるまる貸切</h3>
                                     <p>ゲストはお部屋をまるまる独り占めできます。専用玄関があり、共有スペースはありません。通常、寝室、バスルーム、キッチンが含まれます。</p>
                                 </option>
@@ -57,10 +57,9 @@
                                     <h3>シェアルーム</h3>
                                     <p>ゲストの寝室は他者と共有する場合のある相部屋または共用エリアとなります。</p>
                                 </option>
-                               
                             </select>
                             <select name="" id="">
-                                <option value="">ゲスト4人</option>
+                        
                             </select>
                         </div>
                         <div class="form-bottom">
