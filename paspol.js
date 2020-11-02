@@ -1,5 +1,5 @@
 $(function(){
-    $('.slide').click(function(){
+    $('.res_menu').click(function(){
         if($('.menu_wrapper').hasClass('active')){
             $('.menu_wrapper').removeClass('active');
             $('.menu_wrapper').slideUp('slow');
