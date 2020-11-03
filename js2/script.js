@@ -13,17 +13,14 @@ $(function(){
   
 
     
-    $('.question').on('click', function () {
-        /*クリックでコンテンツを開閉*/
-        $('.answer').slideDown(200);
-        /*矢印の向きを変更*/
-        $(this).toggleClass('rotate');
-      });
-    $('.question-ttl').on('click', function () {
-        /*クリックでコンテンツを開閉*/
-        $(this).next().slideToggle(200);
-        /*矢印の向きを変更*/
-        $(this).toggleClass('rotate2');
+      $('.question').click(function(){
+        if($(this).hasClass('active')){
+              $(this).removeClass('active');
+              $(this).next().slideUp('slow');
+        }else{
+              $(this).addClass('active');
+              $(this).next().slideDown('slow');
+        }
       });
     
 });
