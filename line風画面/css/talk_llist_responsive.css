@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@media screen and (max-width:514px){ 
+       /*ヘッダー*/ 
+    .search input{
+        width: 80%;
+    }
+     /*トークリスト*/
+    .img-icon img{
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        vertical-align: middle;
+        border-radius: 50%;
+       
+    }
+    .list{
+        padding-left: 15px;
+    }
+    .txt{
+        margin-left: 20px;
+        width: 78%;
+    }
+    .txt h2{
+        margin-top: 10px;
+        font-size: 16px;
+        vertical-align: middle;
+    }
+    .txt p{
+        font-size: 12px;
+    }
+    .time{
+        font-size: 12px;
+        right: 20px;
+       
+    }
+    .num{
+        margin: 10px auto;
+        font-size: 14px;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+    }
+    /*選択画面*/
+    .grid p{
+        font-size: 10px;
+    }
+}

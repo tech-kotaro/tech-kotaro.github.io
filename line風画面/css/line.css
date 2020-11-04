@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #7993BE;
+    font-family: sans-serif;
+}
+/*ヘッダー*/
+.header{
+    background-color: rgb(24, 24, 41);
+    height: 70px;
+    color: white;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 10;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.flex p{
+    line-height: 70px;
+}
+.flex-left{
+    width: 40%;
+    display: flex;
+    margin-left: 5%;
+}
+.num{
+    font-size: 20px;
+}
+.arrow{
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.name{
+    letter-spacing: 3px;
+    margin-left: 30px;
+    font-size: 20px
+}
+.flex-right{
+    margin-right: ;
+    display: flex;
+}
+.flex-right p i{
+    line-height: 70px;
+    text-align: center;
+    margin-right: 50px;
+    font-size: 25px;
+}
+
+
+/*トーク*/
+.talk {
+	background-color:rgb(113,147,193); /* LINEっぽい背景色 */
+	padding:1em;
+    padding-top: 100px;
+}
+/* 左のトークボックス */
+.talk-left:before { /* 左の丸アイコン */
+	content:'';
+	display:inline-block;
+	width:50px;
+	height:50px;
+	vertical-align:top;
+	border-radius:50%;
+	background-size:cover;
+	background-image:url(../img/baby-1399332_1920.jpg); /* ←アイコンはここを変更 */
+}
+.talk-left p:before {  /* 左ふきだしの左三角を描画 */
+	content: '';
+	position:absolute;
+	top:8px;
+	left:-20px;
+	border: 12px solid transparent;
+	border-right:12px solid white;
+}
+.talk-left p { /* 左ふきだしの本体 */
+	display:inline-block;
+	position:relative;
+	background-color:white;
+	border-radius:10px;
+	padding:10px;
+    margin:0 0 0 10px;
+    width: 40%;
+}
+/* 右のトークボックス */
+.talk-right:after { /* 右の丸アイコン */
+	content:'';
+	display:inline-block;
+	width:40px;
+	height:50px;
+	vertical-align:top;
+	border-radius:50%;
+    background-repeat: no-repeat;
+	background-position:-10px;
+	background-image:url(../img/man-2037255_1920.jpg);  /* ←アイコンはここを変更 */
+}
+.talk-right {
+    /* 右のふきだしは全体的に右寄せ */
+    margin-left: 50%;
+}
+.talk-right p:after { /* 右ふきだしの右三角を描画 */
+	content: '';
+	position:absolute;
+	top:8px;
+	right:-20px;
+	border: 12px solid transparent;
+	border-left:12px solid #85e249;
+}
+.talk-right p { /* 右ふきだしの本体 */
+	display:inline-block;
+	position:relative;
+	background-color:#85e249;
+	border-radius:10px;
+	padding:10px;
+    margin:0 10px 0 0;
+    width: 80%;
+}
+/*
+.talk{
+    background-color:#7993BE ;
+    padding: 10px;
+    margin: 0;
+    font-weight: 600;
+    margin:10px;
+    display: flex;
+}
+.talk-left{
+    width: 45%;
+    margin-top: 50px;
+    margin: 0 auto;
+}
+.talk-left p{
+    margin:10px ;
+    background:transparent url('../img/bg.png') no-repeat 45px top ;
+    background-size: 20px auto;
+    margin-bottom: 60px;
+}
+.talk-left p span{
+    display: inline-block;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    vertical-align:top ;
+    width: 70%;
+}
+.talk-right{
+    width: 45%;
+    margin-bottom: 10px;
+}
+.talk-right p{
+    margin:10px ;
+    background:transparent url('../img/bg.png') no-repeat 45px top ;
+    background-size: 20px auto;
+    margin-bottom: 60px;
+}
+.talk-right p span{
+    background-color: rgb(51, 207, 51);
+    margin-left: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    vertical-align:top ;
+    width: 100%;
+    display: inline-block;
+  
+}
+.img-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+*/
+/*メッセージ入力画面*/
+.bottom{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+    background-color: white;
+    padding: 10px;
+    height: 70px;
+}
+.bottom i{
+    margin-left: 20px;
+    font-size: 30px;
+    width: 5%;
+}
+.fa-image{
+    padding-left: 5px;
+}
+.bottom input{
+    background-color: rgb(233, 233, 233);
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    width: 40%;
+    border: none;
+    margin-left: 20%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+}

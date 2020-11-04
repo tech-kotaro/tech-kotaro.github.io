@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+li{
+    list-style: none;
+}
+/*ヘッダー*/
+.header{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(24, 24, 41);
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.talk{
+    display: flex;
+    text-align: center;
+    height: 20px;
+}
+.talk p{
+    color: white;
+    width: 30%;
+    margin:0 auto;
+    font-size: 20px;
+}
+.search{
+    background-color: rgb(255, 255, 255);
+    opacity: 0.2;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.search input{
+    outline: none;
+    border: none;
+    font-size: 18px;
+    width: 90%;
+}  
+.fa-qrcode{
+    font-size:20px;
+}
+/*トークリスト*/
+.list-wrapper{
+    margin-top: 170px;
+}
+.list{
+    display: flex;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    align-items: center;
+    position: relative;
+}
+.list a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-indent:-999px;
+    z-index: 2; 
+}
+.list:hover{
+    background-color: rgb(243, 243, 243);
+    cursor: pointer;
+}
+.img-icon{
+    padding-top:10px ;
+}
+.img-icon img{
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    vertical-align: middle;
+    border-radius: 50%;
+   
+}
+.txt{
+    margin-left: 20px;
+    width: 75%;
+}
+.txt h2{
+    margin-top: 10px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+.time{
+    position: absolute;
+    top:15px;
+    right:40px;
+}
+.num{
+    margin-top: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: rgb(51, 207, 51);
+    border-radius: 50%;
+    color: white;
+    width: 35px;
+    height: 35px;
+}
+/*選択画面*/
+.footer{
+    background-color: rgb(255, 250, 250);
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+.grid{
+    text-align: center;
+    width: 20%;
+    margin:0 auto;
+}
+.grid a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-indent:-999px;
+    z-index: 2; 
+}
+.grid i{
+    font-size: 25px;
+    height: 30px;
+}
+.fa-comment{
+    position: relative;
+}
+.fa-comment::after{
+    position: absolute;
+    left:15px;
+    top:-10px;
+    content: "17";
+    padding: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: san-serif;
+    background-color: rgb(252, 17, 17);
+    border-radius:25px;
+    color: white;
+}
+.fa-newspaper{
+    position: relative;
+}
+.fa-newspaper::after{
+    position: absolute;
+    left:30px;
+    top:-3px;
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}

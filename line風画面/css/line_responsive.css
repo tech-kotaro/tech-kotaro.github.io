@@ -1,0 +1,56 @@
+@media screen and (max-width:500px){
+    body{
+        font-size: 12px;
+    }
+    /*ヘッダー*/
+    .header{
+        height: 60px;
+    }
+    .flex p{
+        line-height: 60px;
+        font-size: 16px;
+    }
+    .num{
+        font-size: 15px;
+        margin: 10px;
+    }
+    .name{
+        letter-spacing: 1px;
+        margin-left: 10px;
+        font-size: 10px
+    }
+    .arrow{
+        font-size: 30px;
+    }
+    .flex-right p i{
+        line-height: 70px;
+        text-align: center;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+    /*トーク*/
+    .talk{
+        padding: 0;
+        margin:0;
+    }
+    .talk-left{
+        margin-top: 10px;
+    }
+    .talk-right {
+        position: relative;
+        margin-left: 35%;
+        margin-top: 10px;
+    }
+    
+    .talk-right:after{
+        position: absolute;
+        right: -15px;
+        margin-right: 20px;
+    }
+    /*メッセージ入力画面*/
+    .bottom input{
+        margin-left: 10%;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+    }
+    }
