@@ -1,0 +1,299 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*一枚目コンテンツ*/
+.img-box{
+    display: flex;
+    width: 90%;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+}
+.left img:hover{
+    background-color: rgba(224, 224, 224, 0.8);
+    opacity: 0.9;
+}
+.right img:hover{
+    opacity: 0.9;
+}
+
+.left{
+    width: 50%;
+    margin: 0 auto;
+}
+.left img{
+    width: 100%;
+    padding-right: 5px;
+    border-radius: 10px;
+    /*height: 420px;*/
+}
+.right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.right .img{
+    margin: 0 auto;
+    width: 50%;
+    padding:0 5px ;
+}
+.right .img img{
+    /*height: 205px;*/
+    width: 100%;
+   
+}
+/*一枚目コンテンツ*/
+
+
+/*二枚目コンテンツ~*
+画像を追加する場合,下のcssを参考に
+お好みで画像レイアウトを調整して頂けると幸いです*/
+
+#content2{
+    display: none;
+   margin-top: 100px;
+}
+.content_box2{
+    position: relative;
+}
+.return{
+    cursor: pointer;
+    position: absolute;
+    top:-60px;
+    left: 30px;
+}
+.return:hover{
+    background-color: rgb(238, 238, 238,0.7);
+    border-radius: 50%;
+    padding: 0 2px;
+}
+.img-box2{
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+}
+/*上の画像*/
+.top{
+    width: 100%;
+}
+.top img{
+    width: 100%;
+}
+/*上の画像*/
+
+.img-box2 img:hover{
+    opacity: 0.9;
+}
+
+
+/*真ん中の二枚*/
+
+.medium{
+    display: flex;
+    text-align: center;
+}
+.medium a{
+    width: 50%;
+}
+.medium img{
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 5px;
+    flex: auto;
+}
+.second{
+    text-align: left;
+}
+.third{
+    text-align: right;
+}
+/*真ん中の画像*/
+/*下の画像*/
+.bottom{
+    width: 100%;
+}
+.bottom img{
+    width: 100%;
+}
+/*下の画像*/
+
+/*~二枚目コンテンツ*/
+
+/*フェ-ドイン*/
+.animation {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    animation-name: fadein;
+    animation-duration: 1.5s;
+    animation-iteration-count:1;
+}
+@keyframes fadein {
+from {
+    opacity: 0.2;
+    transform: translateY(100px);
+}
+to {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+
+/*フェイドアウト*/
+.animation2{
+    animation-name: fadeout;
+    animation-duration: 1s;
+    animation-iteration-count:1;
+}
+@keyframes fadeout {
+    from {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    }
+
+
+
+/*三枚目コンテンツ*/
+#content3{
+    display: none;
+    margin-top: 200px;
+}
+.guide{
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+.content_box3{
+    position: relative;
+}
+#num{
+    font-size: 20px;
+    width: 200px;
+    color: black;
+    font-style: normal;
+    font-weight: 500;
+    position: absolute;
+    left: 48%;
+    top:60px;
+    display: inline-block;
+}
+.close{
+    cursor: pointer;
+    width: 100px;
+    font-size: 20px;
+    background-color: rgb(236, 236, 236);
+    color: black;
+    border-radius: 6px;
+    padding: 5px 5px;
+    padding-left: 10px;
+    display: inline-block;
+    margin-left: 30px;
+}
+.all{
+    margin-left: 20px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    width: 12em;
+    border:1px solid black;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif; ;
+    color: rgb(36, 36, 36);
+    font-style: normal;
+    font-weight:600;
+    line-height:  18px;
+    font-size: 20px;
+    display: inline-block;
+}
+.all:hover{
+    background-color: rgba(243, 243, 243, 0.6);
+}
+.close:hover{
+    background-color: rgba(236, 236, 236,0.8);
+}
+.img-wrapper{
+    width: 80%;
+    margin:0 auto;
+    text-align: center;
+    position: relative;
+}
+.content_box3 img{
+    width: 70%;
+    position: absolute;
+    top:0;
+    left: 15%;
+}
+.change-btn{
+    cursor: pointer;
+    color: rgb(209, 209, 209);
+    font-size: 60px;
+}
+
+.change-btn:hover{
+    color: rgb(209, 209, 209,0.8);
+}
+.prev-btn{
+    position: absolute;
+    left: -6%;
+    margin-top: 19%;
+    display: none;
+}
+.next-btn{
+    position: absolute;
+    right: -6%;
+    top:40%;
+    margin-top: 19%;
+}
+
+.slide{
+    opacity: 0;
+}
+.active{
+    opacity: 1;
+    margin: 0 auto;
+}
+/*三枚目コンテンツ*/
+/*フェイドイン*/
+.animation3 {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    animation-name: fadein2;
+    animation-duration: 1s;
+    animation-iteration-count:1;
+}
+@keyframes fadein2 {
+from {
+    opacity: 0;
+    transform: translateY(20px);
+}
+to {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+/*フェードアウト*/
+.animation4{
+    animation-name: fadeout2;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+}
+@keyframes fadeout2 {
+    from {
+        opacity: 0.5;
+        transform: translateY(0px);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    }
+

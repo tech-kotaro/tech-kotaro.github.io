@@ -1,0 +1,87 @@
+@media screen and (max-width: 1200px) {
+  *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+    .img-box2{
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+  }
+  .prev-btn{
+    left: -6%;
+    display: none;
+    margin-top: 19%;
+}
+.next-btn{
+    right: -6%;
+    margin-top: 19%;
+}
+
+}
+@media screen and (max-width:900px){
+
+}
+@media screen and (max-width:700px){
+    .img-box{
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .left{
+    width: 100%;
+
+  }
+  .left img{
+    width: 100%;
+    padding: 0;
+    height:300px;
+    border-radius: 0;
+}
+.right{
+  display: none!important;
+}
+.all{
+  font-size: 5px;
+  padding: 0;
+  width: 100px;
+}
+
+#num{
+  font-size: 10px;
+  width: 200px;
+  bottom: 0;
+}
+.guide{
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+  .close{
+    font-size: 12px;
+    width: 55px;
+    padding: 5px 0 5px;
+    
+  }
+  .fa-times{
+    padding-left: 5px;
+  }
+  .prev-btn{
+    left: -2%;
+}
+.img-box2{
+    width: 100%;
+}
+.prev-btn{
+  margin-top: 19%;
+}
+.next-btn{
+    right: -2%;
+    margin-top: 19%;
+}
+.change-btn{
+  font-size: 30px;
+}
+
+}
