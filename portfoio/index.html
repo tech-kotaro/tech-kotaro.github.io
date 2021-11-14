@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Webエンジニア土方宏太郎のポートフォリオサイトです。HP制作やLP制作、WordPress構築など一貫して承っております。">
+  <meta name="keywords" content="HP制作,LP制作,WordPress,HP">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='ポートフォリオ'>
+  <meta property='og:url' content='URLが入る'>
+  <meta property='og:description' content='KOTARO HIJIKATAのポートフォリオサイトです！'>
+  <meta property="og:image" content="img/ogp.png">
+  <title>土方宏太郎のポートフォリオサイト</title>
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+  <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="self_img/favicon.png" width="515" height="515" type="image/png" />
+  <link rel=”canonical” href=”URLが入る” />
+  <link rel="stylesheet" href="css/portfolio_responsive.css">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- .gnav -->
+    <header class="fixed">
+      <div class="header">
+        <nav class="gnav" class="fixed">
+          <ul class="gnav-list">
+            <li class="gnav-item">
+              <a class="gnav-link" href="#works-section">WORKS</a>
+            </li>
+            <li class="gnav-item">
+              <a class="gnav-link" href="#feature-section">SERVICE</a>
+            </li>
+            <li class="gnav-item">
+              <a class="gnav-link" href="#about-section">ABOUT</a>
+            </li>
+            <li class="gnav-item">
+              <a class="gnav-link" href="#contact-section">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+        <!--レスポンシブ-->
+        <nav class="globalnav">
+            <ul class="headernav">
+              <li class="menuitem">
+                <a class="gnav-link2" href="#works-section">WORKS</a>
+              </li>
+              <li class="menuitem">
+                <a class="gnav-link2" href="#feature-section">SERVICE</a>
+              </li>
+              <li class="menuitem">
+                <a class="gnav-link2" href="#about-section">ABOUT</a>
+              </li>
+              <li class="menuitem">
+                <a class="gnav-link2" href="#skill-section">SKILL</a>
+              </li>
+              <li class="menuitem">
+                <a class="gnav-link2" href="#price-section">PRICE</a>
+              </li>
+              <li class="menuitem">
+                <a class="gnav-link2" href="#contact-section">CONTACT</a>
+              </li>
+            </ul>
+        </nav>
+        <div class="icon-wrapper">
+          <div class="icon">
+            <p class="forsp slide">MENU</p>
+            <i class="fas fa-bars menu slide"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+   
+
+    <!-- .headerバナー -->
+    <div class="header-banner">
+      <h1 class="logo">
+        <div class="logo-title">Kotaro Hijikata Portfolio<br></div>
+        <p class="logo-sentence2">お客様に寄り添い、最適なご提案をさせていただきます。</p>
+        <a class="logo-subtitle" href="#contact-section">気軽に相談する</a>
+      </h1>
+    </div>
+    <script src="js/jquery.bgswitcher.js"></script>
+    <script>
+      jQuery(function($) {
+          $('.header-banner').bgSwitcher({
+          images: ['./self_img/tree-736885_1280.jpg',
+          './self_img/road-1072821_1920.jpg',
+      './self_img/astronomy.jpg'],
+          effect: "fade",
+          easing: "linear",
+          interval:6000,
+          duration:1000
+          });
+      });
+     
+  </script>
+    <!-- /.header -->
+
+    <main class="content">
+        <!-- .works-section -->
+  
+      <section class="feature-section fadein" id="feature-section">
+        <div class="service-title">
+          <h2 class="heading-primary">Service</h2>
+        </div>
+        <div class="service-wrapper">
+          <div class="service-design des1">
+            <div class="service-item">
+              <i class="fas fa-laptop-code " aria-hidden="true"></i>
+            </div>
+            <h2>HP・LP制作</h2>
+            <p>Wordpressを使った更新性の高いサイト、レスポンシブ対応サイト、など様々なサイトのコーディングを行っています。 
+            </p>
+          </div>
+          <div class="service-design des6">
+            <div class="service-item"> 
+              <i class="fab fa-google"></i>
+            </div>
+            <h2>SEO・MEO対策</h2>
+            <p>検索エンジンにて上位表示させるSEO技術と、マップ検索で上位表示させるMEO技術をサイト制作と掛け合わせていただくことでより効果的にサイト集客を行うことが可能です。SEOだけが意識されがちですが、MEO対策も非常に重要です。
+            </p>
+          </div>
+          <div class="service-design des2">
+            <div class="service-item"> 
+              <i class="fas fa-pencil-alt"　aria-hidden="true"></i>
+            </div>
+            <h2>Webライティング</h2>
+            <p>マーケティング知識を活かしたコピーライティング、SEOを意識したライティングが可能です。サイトの見出しの選定、ブログの執筆代行などお客様に合わせて対応させて頂きます。</p>
+          </div>
+          <div class="service-design des2">
+            <div class="service-item"> 
+              <i class="fab fa-wordpress" aria-hidden="true"></i>
+            </div>
+            <h2>Wordpress構築</h2>
+            <p>WordPressを用いたサイト制作を承ります。
+              ソースコードを基にWordpressに対応させていただきます。
+              企業様のサイトはもちろん、個人でのブログや求人サイトの制作など幅広く提案させていただきます。</p>
+          </div>
+          <!--
+          <div class="service-design des3">
+            <div class="service-item"> 
+              <i class="far fa-newspaper"></i>
+            </div>
+            <h2>広告運用</h2>
+            <p>LP作成だけでなく、その後の広告運用までサポートさせていただきます。お客様とのコミュニケーションを取りながらノウハウを共有させていただきます。ユーザーのニーズ、競合調査を始め、CV向上に向けて様々な施策を考えます。Web広告はリスティング広告やSNS広告など多岐に渡ります。</p>
+          </div>
+    -->
+           <div class="service-design des5">
+            <div class="service-item">
+              <i class="fas fa-shopping-cart"　aria-hidden="true"></i>
+            </div>
+            <h2>ECサイト制作</h2>
+            <p>オンラインストアを構築致します。ECサイトはSNSと連携することで収益増加が期待できます。例えば、Shopifyとは、2004年にカナダで創業されたECサイトの開発・運営を手掛けるECプラットフォームです。シンプルかつ高機能なデザインが評判を得ていて、現在175ヵ国100万店舗以上で導入されるなど世界NO.1シェアを誇っています。</p>  
+          </div>
+          <div class="service-design des5">
+            <div class="service-item">
+              <i class="fas fa-code" aria-hidden="true"></i>
+            </div>
+            <h2>コーディング代行</h2>
+            <p>デザインした内容を基にコーディングをさせていただきます。 Wordpressを使った更新性の高いサイト、レスポンシブ対応サイト、など様々なサイトのコーディングを行っています。 クライアント様に最もあったサイトをご提案させていただきます。</p>  
+          </div>
+        </div>
+          <div class="service-contents">
+            <h2>稼働時間</h2>
+            <p>月~金 午前8時～10時 午後4時～午後10時<br>土日(祝) 午前8時~午後8時</p>
+          </div>
+      </section>
+
+      <section class="works-section section fadein" id="works-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">WORKS</h2>
+          </div>
+          <div class="section-lead ">
+            <p>制作物の記録です。レスポンシブ対応となっております。<br>模写用のサイトも含んでおります。</p>
+            <p>NDA(秘密保持契約)により公開していない実績もございます。</p>
+            <li>受注実績:15件以上</li>
+            <li>業務委託契約:2社</li>
+          </div>
+        
+          <div class="work-wrapper">
+            <h2 class="heading">HP制作</h2>
+          <div class="work-packet">
+          <div class="work-item2">
+                <div class="work-image">
+                  <a target="_blank" href="https://www.ehime-startupclub.jp/" class="hover-action">
+                  <img src="self_img/ehime-kigyou.png" width="1325" height="600" alt="">
+                  </a>
+                </div>
+                <div class="work-name">
+                  <h2>えひめ学生起業塾様</h2>
+                  <p>Coding(Responsive)/Wordpress</p>
+                </div>
+            </div>
+            <div class="work-item2">
+                <div class="work-image">
+                  <a target="_blank" href="https://oucci-wak.com/" class="hover-action">
+                  <img src="self_img/outi.png" width="1325" height="600" alt="">
+                  </a>
+                </div>
+                <div class="work-name">
+                  <h2>おうちスタジオカランポエ様</h2>
+                  <p>Coding(Responsive)/Wordpress</p>
+                </div>
+            </div>
+              <div class="work-item2">
+                <div class="work-image">
+                  <a target="_blank" href="https://tech-kotaro.com/wp" class="hover-action">
+                  <img src="self_img/misuzu.png" width="1325" height="600" alt="">
+                  </a>
+                </div>
+                <div class="work-name">
+                  <h2>みすず薬局様</h2>
+                  <p>Coding(Responsive)/Wordpress</p>
+                </div>
+              </div>
+              <div class="work-item2">
+                <div class="work-image">
+                  <a target="_blank" href="https://east-ehime.com/" class="hover-action">
+                  <img src="self_img/east.png" width="1325" height="600" alt="">
+                  </a>
+                </div>
+                <div class="work-name">
+                  <h2>株式会社イースト様</h2>
+                  <p>Coding(Responsive)/Wordpress</p>
+                </div>
+            </div>
+            <div class="work-item2">
+                <div class="work-image">
+                  <a target="_blank" href="https://tech-kotaro.com/ansin" class="hover-action">
+                  <img src="self_img/ansin.png" width="1325" height="600" alt="">
+                  </a>
+                </div>
+                <div class="work-name">
+                  <h2>あんしん保険本舗様</h2>
+                  <p>Coding(Responsive)/Wordpress</p>
+                </div>
+            </div>
+            <div class="work-item2">
+                <div class="work-image">
+                  <a target="_blank" href="http://kotalog.website/demosite02/" class="hover-action">
+                  <img src="self_img/salonseedas.png" width="1325" height="600" alt="">
+                  </a>
+                </div>
+                <div class="work-name">
+                  <h2>サロンサイト(WordPressカスタマイズ)</h2>
+                  <p>Coding(Responsive)/Wordpress</p>
+                </div>
+            </div> 
+            <div class="work-item2">
+                <div class="work-image">
+                  <a target="_blank" href="http://kotalog.website/demosite01/" class="hover-action">
+                  <img src="self_img/cafeseedas.png" width="1325" height="600" alt="">
+                  </a>
+                </div>
+                <div class="work-name">
+                  <h2>カフェサイト(WordPressカスタマイズ)</h2>
+                  <p>Coding(Responsive)/Wordpress</p>
+              </div>
+    </div>
+              <div class="work-item2">
+                <div class="work-image">
+                  <a target="_blank" href="https://tech-kotaro.com/wcbcafe">
+                  <img src="self_img/wcbcafe.png" width="1325" height="600" alt="">
+                  </a>
+                </div>
+                <div class="work-name">
+                  <h2>カフェデモサイト</h2>
+                  <p>Coding(Responsive)/Wordpress</p>
+                </div>
+              </div>
+              <div class="work-item2">
+                <div class="work-image">
+                  <a target="_blank" href="https://tech-kotaro.com/marketing" class="hover-action">
+                  <img src="self_img/marketing (2).png" width="1325" height="600" alt="">
+                  </a>
+                </div>
+                <div class="work-name">
+                  <h2>DataManiaサイト</h2>
+                  <p>Coding(Responsive)/Wordpress</p>
+                </div>
+              </div>
+              <div class="work-item2">
+                <div class="work-image">
+                  <a target="_blank" href="https://tech-kotaro.com/mysite">
+                  <img src="self_img/demo.png" width="1325" height="600" alt="">
+                  </a>
+                </div>
+                <div class="work-name">
+                  <h2>デモサイト</h2>
+                  <p>Coding(Responsive)/Wordpress</p>
+                </div>
+              </div>
+              <div class="work-item2">
+                <div class="work-image">
+                  <a target="_blank" href="https://tech-kotaro.com/wp" class="hover-action">
+                  <img src="self_img/pacificmall.png" width="1325" height="600" alt="">
+                  </a>
+                </div>
+                <div class="work-name">
+                  <h2>モールデモサイト</h2>
+                  <p>Coding(Responsive)/Wordpress</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="work-wrapper">
+            <h2 class="heading">LP制作</h2>
+             <div class="work-packet">
+              <div class="work-item2">
+                <div class="work-image">
+                  <a target="_blank" href="https://tech-kotaro.com/tiryouin" class="hover-action">
+                  <img src="./self_img/seitai.png">
+                  </a>
+                </div>
+                <div class="work-name">
+                  <h2>整体院サイトコーディング</h2>
+                  <p>Design/Coding(Responsive)</p>
+                  <a target="_blank" href="https://tech-kotaro.com/tiryouin"></a>
+                </div>
+              </div>
+                <div class="work-item2">
+                <div class="work-image">
+                  <a target="_blank" href="https://tech-kotaro.com/invest" class="hover-action">
+                  <img src="./self_img/invest.png">
+                  </a>
+                </div>
+                <div class="work-name">
+                  <h2>投資家と起業家サイトのご依頼</h2>
+                  <p>Design/Coding(Responsive)</p>
+                  <a target="_blank" href="https://tech-kotaro.com/invest"></a>
+                </div>
+            </div>
+            <div class="work-item2">
+              <div class="work-image">
+                <a target="_blank" href="https://tech-kotaro.com/ansin" class="hover-action">
+                <img src="self_img/ansin.png" width="1325" height="600" alt="">
+                </a>
+              </div>
+              <div class="work-name">
+                <h2>火災保険サイトのご依頼</h2>
+                <p>Direction</p>
+              </div>
+            </div>
+              <div class="work-item2">
+                  <div class="work-image">
+                    <a target="_blank" href="https://tech-kotaro.github.io/airbnb.html" class="hover-action">
+                    <img src="self_img/airbnb.png" width="1325" height="600" alt="">
+                    </a>
+                  </div>
+                  <div class="work-name">
+                    <h2>airbnbサイトコーディング</h2>
+                    <p>Design/Coding(Responsive)</p>
+                  </div>
+              </div>
+              <div class="work-item2">
+                <div class="work-image">
+                  <a target="_blank" href="https://tech-kotaro.github.io/isara.html" class="hover-action">
+                  <img src="self_img/isara.png" width="1325" height="600" alt="">
+                  </a>
+                </div>
+                <div class="work-name">
+                  <h2>isaraサイトコーディング</h2>
+                  <p>Design/Coding(Responsive)</p>
+                </div>
+            </div>
+              <div class="work-item2">
+                  <div class="work-image">
+                      <a target="_blank" href="https://tech-kotaro.github.io/knipe.html" class="hover-action">
+                      <img src="self_img/knipe.png"  width="1325" height="600" alt="">
+                      </a>
+                  </div>
+                  <div class="work-name">
+                    <h2>クナイプサイトコーディング</h2>
+                    <p>Design/Coding(Responsive)</p>
+                  </div>
+              </div>
+              <div class="work-item2">
+                  <div class="work-image">
+                    <a target="_blank" href="https://tech-kotaro.github.io/paspol.html" class="hover-action">
+                    <img src="self_img/paspol.png" width="1325" height="600" alt="">
+                    </a>
+                  </div>
+                  <div class="work-name">
+                    <h2>PAS-POLサイトコーディング</h2>
+                    <p>Design/Coding(Responsive)</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="work-wrapper">
+            <h2 class="heading">フロントエンド制作</h2>
+           <div class="work-packet">
+                <div class="work-item2">
+                <div class="work-image">
+                    <a target="_blank" href="" class="hover-action">
+                    <img src="self_img/deai2.png" width="1325" height="600" alt="">
+                    </a>
+                </div>
+                <div class="work-name">
+                  <h2>マッチングアプリ比較サイトのご依頼</h2>
+                  <p>Design/Coding(Responsive)</p>
+                </div>
+            </div>
+              <div class="work-item2">
+              <div class="work-image">
+                <a target="_blank" href="https://tech-kotaro.github.io/line%E9%A2%A8%E7%94%BB%E9%9D%A2/talk_list.html" class="hover-action">
+                <img src="self_img/line.png" width="1325" height="600" alt="">
+                </a>
+              </div>
+              <div class="work-name">
+                <h2>LINE風画面作成のご依頼</h2>
+                <p>Design/Coding(Responsive)</p>
+              </div>
+            </div>
+          </div>
+          <div class="work-wrapper">
+            <h2 class="heading">バックエンド制作</h2>
+             <div class="work-packet">
+            <div class="work-item2">
+              <div class="work-image">
+                <a target="_blank" href="https://tech-kotaro.github.io/airbnb_jquery-test2/" class="hover-action">
+                <img src="self_img/jquery.png" width="1325" height="600" alt="">
+                </a>
+              </div>
+              <div class="work-name">
+                <h2>jquery機能実装のご依頼</h2>
+                <p>Coding</p>
+                <p>JavaScript,jqueryを用いて作成しました。</p>
+              </div>
+            </div>
+              <div class="work-item2">
+                  <div class="work-image">
+                    <a target="_blank" href="" class="hover-action">
+                    <img src="self_img/hitokoto.png" width="1325" height="600" alt="">
+                    </a>
+                  </div>
+                  <div class="work-name">
+                    <h2>一言掲示板</h2>
+                    <p>Direction/Coding</p>
+                    <p>PHPフレームワーク(CodeIgniter)を用いて作成しました。</p>
+                  </div>
+              </div>
+              <div class="work-item2">
+                <div class="work-image">
+                  <a target="_blank" href="https://tech-kotaro.com/test.html" class="hover-action">
+                  <img src="self_img/cloth.png"  width="1325" height="600" alt="">
+                  </a>
+                </div>
+                <div class="work-name">
+                  <h2>着せ替え機能実装のご依頼</h2>
+                  <p>Coding</p>
+                  <p>JavaScriptを用いて作成しました。</p>
+                </div>
+              </div>
+              <div class="work-item2">
+                  <div class="work-image">
+                    <a target="_blank" href="" class="hover-action">
+                    <img src="self_img/login.png" width="1325" height="600" alt="">
+                    </a>
+                  </div>
+                  <div class="work-name">
+                    <h2>ログイン機能</h2>
+                    <p>Direction/Coding</p>
+                    <p>PHPフレームワーク(CodeIgniter)を用いて作成しました。</p>
+                  </div>
+              </div>
+              <div class="work-item2">
+                  <div class="work-image">
+                    <a target="_blank" href="" class="hover-action">
+                    <img src="self_img/faq.png" width="1325" height="600" alt="">
+                    </a>
+                  </div>
+                  <div class="work-name">
+                    <h2>お問い合わせフォーム</h2>
+                    <p>Direction/Coding</p>
+                    <p>PHPフレームワーク(CodeIgniter)を用いて作成しました。</p>
+                  </div>
+              </div>
+              <div class="work-item2">
+                  <div class="work-image">
+                    <a target="_blank" href="" class="hover-action">
+                    <img src="self_img/seimei.png" width="1325" height="600" alt="">
+                    </a>
+                  </div>
+                  <div class="work-name">
+                    <h2>姓名判断プログラム</h2>
+                    <p>Direction/Coding</p>
+                    <p>PHPフレームワーク(CodeIgniter)を用いて作成しました。</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="record fadein-left">
+            <h2>その他の制作経験</h2>
+            <p>PHPを用いて作成しました。</p>
+            <li>お問い合わせフォーム</li>
+            <li>姓名占い</li>
+            <li>会員登録フォーム</li>
+            <li>カレンダー</li>
+            <li>ログイン機能の実装</li>
+          </div>
+        </div>
+      </section>
+     <!-- .about-section -->
+     <section class="about-section section fadein" id="about-section">
+      <div class="inner">
+        <div class="section-heading">
+          <h2 class="heading-primary">ABOUT</h2>
+        </div>
+        <div class="section-lead">
+      
+        </div>
+        <div class="section-body about">
+          <div class="about-item">
+            <div class="about-image-wrapper">
+              <img class="about-image lazyload " src="self_img/person.png" alt="">
+            </div>
+            <div class="about-body ">
+              <p>
+                --経歴--
+              </p>
+              <p>
+                土方宏太郎(ひじかたこうたろう)<br>
+                21歳<br>
+                2000年生まれ。<br>広島県出身。<br>
+                <br>地方国立大学 工学部に在学中。
+                <br>大学では応用化学を専攻。
+                <br> (現在、大学3回生)
+              </p>
+                <p>
+                --現在--<br>
+                フリーランス(8ヶ月) → ITベンチャー <br>
+                プログラミングスクールにて4ヶ月PHPを主に勉強。<br>
+                その後、3ヶ月Web制作を独学。<br>
+                大学2年から大学3年までWebサイト制作の個人事業主として活動。<br>
+                独学3ヶ月目で初案件獲得、修正・制作案件含め15件以上の制作に携わる。<br>
+                クラウドソーシング、制作会社、知人から案件を受注。
+                その後Webマーケティングを学ぶ。
+                運営ブログ：<a href="https://kotalog.website/" style="text-decoration: underline;">https://kotalog.website/</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.about-section -->
+
+      <!-- .skill-section -->
+      <!--
+      <section class="skill-section section fadein" id="skill-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">SKILL</h2>
+          </div>
+          <div class="section-lead">
+            <p>スキル</p>
+          </div>
+          <div class="section-body skill">
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="https://takaolab.com/wp-content/uploads/2020/03/html5-css3-logo.png" alt="">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">HTML5/CSS3</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate5"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="https://maku77.github.io/assets/img/logo-js.svg" alt="">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">JQuery</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate4"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="./self_img/8e2ab023.png" alt="">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">WordPress</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate5"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1280px-PHP-logo.svg.png" alt="">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">PHP</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate4"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="https://pngimg.com/uploads/mysql/mysql_PNG1.png" alt="">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">SQL</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate3"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="https://cdn.worldvectorlogo.com/logos/centos.svg" alt="">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">Linux</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate3"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="./self_img/Illustrator.png" alt="">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">Illustrator</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate3"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="https://cdn.worldvectorlogo.com/logos/photoshop-cc.svg" alt="">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">Photoshop</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate3"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    -->
+      <!-- /.skill-section -->
+
+      <!-- .contact-section -->
+      <section class="contact-section section fadein" id="contact-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">CONTACT</h2>
+          </div>
+          <div class="section-lead">
+            <p>
+              お問い合わせは、<br class="sp-only">下記メールでお願いいたします。
+            </p>
+          </div>
+          <div class="section-body contact">
+            <ul class="contact-list">
+              <li class="contact-item">
+                <a class="contact-link" href="" target="_blank"><img class="contact-image"
+                    src="img/contact/icon_tw.png" alt=""></a>
+              </li>
+            </ul>
+            <div class="contact-text">kou846289@gmail.com</div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- /.contact-section -->
+<!--https://twitter.com/kotaro_business-->
+    </main>
+
+    <!-- .footer -->
+    <footer class="footer">
+      <div class="page-top" id="js-page-top">
+        トップへもどる
+      </div>
+      <div class="inner">
+        <div class="copyright">Copyright&copy;Kotaro Hijikata. All Rights Reserved.</div>
+      </div>
+    </footer>
+    <!-- /.footer -->
+    
+  </div>
+
+  <!-- 下記はPhotoswipeプラグイン用 -->
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+       It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+      <!-- Container that holds slides.
+          PhotoSwipe keeps only 3 of them in the DOM to save memory.
+          Don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+
+        <div class="pswp__top-bar">
+
+          <!--  Controls are self-explanatory. Order can be changed. -->
+
+          <div class="pswp__counter"></div>
+
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+          <button class="pswp__button pswp__button--share" title="Share"></button>
+
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+          <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader--active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+        </button>
+
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+        </button>
+
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe-ui-default.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe-setup.js"></script>
+  <script type='text/javascript' src="js/lazysizes/lazysizes.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+   <!--フェードインver2のための読み込み-->
+  <script type='text/javascript'src="./js/slick.min.js"></script>
+
+ 
+   <!-- ④フェードインのためのコードです
+   上記のscrollreveal.min.jsというファイルを必ず読み込んでください
+   scrollrebvealはとてもカスタマイズ性が豊富なものとなっております。
+   詳細はこちらのブログ等をご覧ください → https://amg-solution.jp/blog/9796 
+   またコードの説明としましては、fadeinというクラスを持ったブロックをスクロールしたらフェードインで出現させるというシンプルなものとなっております。 -->
+  <script type='text/javascript' src="./js/scrollreveal.min.js"></script>
+   <script>
+     var ScrollrevealFade1 = {
+     origin: 'left',
+     distance: '30px',//移動範囲
+     scale: 1,//拡大表示（１で横スクロールが始まる）
+     rotate: { x: 0, y: 0, z: 0 }, //xは縦回転、yは横回転、zは傾き（風車みたいな感じ）
+     duration: 2500, //アニメーションの速度
+     delay:0 //要素が表示するまでの待機時間（ディレイ）
+     };
+     ScrollReveal().reveal('.fadein-left',ScrollrevealFade1);
+   </script>
+</body>
+</html>
